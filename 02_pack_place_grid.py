@@ -89,8 +89,10 @@ root.iconbitmap(r'tiger.ico')
 # # place() : In Tkinter, the place manager is one of the three geometry managers used to position widgets within a container. It allows you to specify exact coordinates (x, y) for the widget to be placed
 
 lable2 = Label(root, text='Second Lable', font=('TIMES NEW ROMAN', 16, 'bold'))
-lable2.place(x=120, y=130)
+lable2.place(x=190, y=200)
 
+txt_button = ttk.Button(root,text="CLICK ME")
+txt_button.place(x=205,y=235)
 
 if __name__ == "__main__":
     root.mainloop()
