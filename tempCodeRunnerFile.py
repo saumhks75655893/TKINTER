@@ -1,1 +1,1 @@
-
+font=("arial",22,"bold")
